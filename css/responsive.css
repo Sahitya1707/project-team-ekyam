@@ -1,0 +1,277 @@
+@media (max-width: 1200px) {
+  .nav-link,
+  .mode {
+    font-size: 0.9rem;
+  }
+  .nav-links {
+    left: 10px;
+  }
+  .list-item {
+    margin-left: 2rem;
+  }
+  .s-text,
+  .s-learn {
+    font-size: 1.2rem;
+  }
+  .main-text {
+    font-size: 1.6rem;
+  }
+  .main-heading {
+    font-size: 2rem;
+  }
+  .mode {
+    width: 7rem;
+    height: 3.5rem;
+  }
+  .about,
+  .our-team {
+    padding: 0 2rem;
+  }
+  .blog1-heading {
+    width: 8rem;
+    font-size: 1.2rem;
+    height: 5rem;
+  }
+  .blog1-text-content {
+    bottom: 10px;
+  }
+  .blogs-heading {
+    font-size: 1rem;
+  }
+  .blogs-content {
+    height: 8rem;
+  }
+  .contact {
+    height: 25rem;
+  }
+  .text-blog1,
+  .click,
+  .blogs-text {
+    font-size: 0.9rem;
+  }
+  .blogs-arrow {
+    display: none;
+  }
+  .info-heading,
+  .form-heading {
+    font-size: 1rem;
+  }
+  .icon-info {
+    left: 0;
+    top: 20%;
+  }
+  #icon-info,
+  #icon-text,
+  #icon-text a {
+    font-size: 0.9rem;
+  }
+  #icon-info {
+    margin: 0 1rem 0 0.7rem;
+  }
+  .ico {
+    margin: 1rem 0 1rem 0;
+  }
+  .our-socialmedia i {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 920px) {
+  .nav {
+    /* background-color: transparent; */
+  }
+  .nav-links {
+    left: 0;
+    right: 0;
+    /* margin: 0 auto; */
+  }
+  .nav-items {
+    /* width: 100vw; */
+    margin: 0 auto;
+  }
+  .list-item {
+    display: none;
+  }
+  .right-hide {
+    display: block;
+  }
+  .rightNav {
+    /* width: 0rem; */
+  }
+  .blog-4,
+  .blog-5 {
+    display: none;
+  }
+
+  .mode {
+    padding: 0;
+    width: auto;
+    height: 0;
+    border: none;
+  }
+  .blogs {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .blog-1 {
+    width: 55%;
+  }
+  .blog-2,
+  .blog-3 {
+    left: 55.4%;
+    width: 45%;
+  }
+  .contact {
+    flex-direction: column-reverse;
+    height: auto;
+    width: auto;
+  }
+  .contact-info {
+    width: 90%;
+    height: 20rem;
+    margin: 1rem auto;
+  }
+  .contact-form {
+    width: 90%;
+    margin: 0 auto;
+    height: 20rem;
+  }
+}
+@media (max-width: 670px) {
+  .blogs {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-1,
+  .blog-2,
+  .blog-3,
+  .blog-4,
+  .blog-5 {
+    /* display: block; */
+    position: static;
+    background-size: cover;
+    width: 100%;
+    margin: 1rem 0 0 0;
+    /* margin-top: 2rem; */
+  }
+  .blog-3 {
+    display: none;
+  }
+  .blog-5 {
+    display: block;
+  }
+  .blog1-heading {
+    display: none;
+  }
+  .blog1-text-content {
+    bottom: 70px;
+  }
+  .click {
+    display: none;
+  }
+  .blogs-content {
+    position: static;
+  }
+  .blogs-heading {
+    display: none;
+  }
+  .blogs-text {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .nav {
+    height: 5rem;
+    z-index: 1000;
+  }
+  .nav-items {
+    padding: 0.3rem;
+  }
+  .logo-img {
+    height: 3.8rem;
+    width: 2.5rem;
+  }
+  .rightNav {
+    height: 100%;
+    padding-top: 7rem;
+    z-index: 999;
+    top: 0rem;
+  }
+  .right-width {
+    width: 20rem;
+
+    /* top: 4.8rem; */
+  }
+  .s-text,
+  .s-learn {
+    font-size: 0.8rem;
+  }
+  .main-text {
+    font-size: 1.2rem;
+  }
+  .main-heading {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+  .heading::before {
+    content: "";
+    position: absolute;
+    width: 0.3rem;
+    height: 2rem;
+
+    right: -20px;
+  }
+  .about-paragraph {
+    font-size: 0.9rem;
+  }
+  .s-learn {
+    font-size: 0.9rem;
+    width: 9rem;
+    border-radius: 20px;
+  }
+  .about,
+  .our-team {
+    padding: 0 1rem;
+  }
+  .nav-link,
+  .mode {
+    font-size: 0.7rem;
+  }
+  .text-blog1,
+  .click,
+  .blogs-text {
+    font-size: 0.7rem;
+  }
+  .submit {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 15px;
+  }
+  .submit-text {
+    font-size: 0.8rem;
+    /* padding-bottom: 1rem; */
+  }
+  .contact-form {
+    height: auto;
+  }
+  .form-input {
+    width: 80%;
+  }
+  .textarea {
+    height: 8rem;
+  }
+  .icon-info {
+    top: 10%;
+  }
+  .contact-info {
+    height: 18rem;
+  }
+  #icon-text {
+    /* text-decoration: underline; */
+  }
+  .socialmedia-icon {
+    bottom: 2rem;
+  }
+}
